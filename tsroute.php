@@ -1,9 +1,10 @@
-<?php
+﻿<?php
 //连接数据库
 var mysqlHost="45.76.134.241";
 var mysqlPwd="root";
 var mysqlUser="root";
-$conn = mysql_connect(mysqlHost,mysqlUser,mysqlPwd);
+//$conn = mysql_connect(mysqlHost,mysqlUser,mysqlPwd);
+$conn = mysql_connect("45.76.134.241","root","root");
 mysql_select_db("test");
 
 if( $_POST["tid"])
